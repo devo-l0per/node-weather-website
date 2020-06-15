@@ -1,0 +1,99 @@
+body {
+    columns: #333333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-size: larger;
+} 
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+  
+    
+
+
+ .main-content{
+  flex-grow: 1;
+} 
+
+footer{
+    color: black;
+    border-top: 4px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    font-weight: 700;
+    font-size: 25px;
+    border-color:black;
+    text-align: end;
+    position: fixed;
+    bottom: 0;
+    width: 400px;
+
+    
+    
+
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size:64px;
+    margin-bottom: 16px;
+}
+
+header a{
+ color: black;
+ margin-right:16px;
+ text-decoration: none;
+ font-weight: 700;
+ font-size: larger
+}
+header a:hover{
+    color: whitesmoke;
+}
+
+.portrait {
+    width: 300px;
+    border: black solid 2px;
+    border-radius: 4px;
+
+}
+
+input{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+button{
+    cursor: pointer;
+    border:1px solid #888888;
+    background:black;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    width: 120px;
+    font-size: medium;
+
+}
+button:hover{
+    background: white;
+    color: black;
+}
+
